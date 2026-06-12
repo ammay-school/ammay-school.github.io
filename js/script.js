@@ -29,13 +29,12 @@ function getCookie(name) {
 checkVisit();
 
 // show email using Jquery
+$("#email").text("may2am@mail.uc.edu");
+$("#email").hide();
+
 $("#showEmailBtn").click(function () {
     $("#email").toggle();
-    if ($("#email").text() === "") {
-        $("#email").text("may2am@mail.uc.edu");
-    }
 });
-
 // Digital Clock
 function updateDigitalClock() {
     let now = new Date();
