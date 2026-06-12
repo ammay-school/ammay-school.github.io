@@ -32,7 +32,7 @@ checkVisit();
 $("#showEmailBtn").click(function () {
     $("#email").toggle();
     if ($("#email").text() === "") {
-        $("#email").text("yourname@email.com");
+        $("#email").text("may2am@mail.uc.edu");
     }
 });
 
