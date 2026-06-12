@@ -15,12 +15,32 @@
   <script defer src="js/script.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Your Name</a>
+
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="course.html">Course Projects</a>
+        </div>
+    </div>
+</nav>
+  
   <div class="container mt-4">
-    <img src="images/Headshot.png" alt="Headshot">
-    <h1>Alex May</h1>
-    <p>Computer Science Student at the University of Cincinnati</p>
     <div id="welcomeMessage" class="alert alert-info"></div>
 
+    <div class="row">
+      <img src="images/Headshot.png" alt="Headshot" class="profile-pic">
+      <h1>Alex May</h1>
+      <p>Computer Science Student at the University of Cincinnati</p>
+      <button id="showEmailBtn" class="btn btn-primary">
+        Show Email
+      </button>
+      <p id="email" class="mt-2"></p>
+    </div>
+      
     <button id="newDogBtn">New Dog</button>
 
     <h2>Digital Clock</h2>
