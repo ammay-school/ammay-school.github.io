@@ -88,3 +88,19 @@ loadDog();
 document
     .getElementById("newDogBtn")
     .addEventListener("click", loadDog);
+
+const ctx = document.getElementById('skillChart');
+
+if (ctx) {
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Security'],
+            datasets: [{
+                label: 'Skill Level',
+                data: [85, 80, 75, 70, 50, 80],
+                backgroundColor: 'rgba(54, 162, 235, 0.6)'
+            }]
+        }
+    });
+}
