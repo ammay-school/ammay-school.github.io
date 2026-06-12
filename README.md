@@ -16,3 +16,24 @@
 # Individual Project 1 - Personal Profile Web Page 
 
 ## The Projects's overview
+
+This assignment involved designing and deploying a personal professional website that demonstrates both web development and web security concepts learned so far.
+
+The goal of the project was to build a fully functional portfolio website hosted on GitHub Pages, while integrating dynamic front-end features, public APIs, and secure client-side programming practices. In addition, the project required implementing JavaScript-based interactivity, cookies for user tracking, and visualization tools using external libraries.
+
+Through this assignment, I learned how to:
+- Build and deploy a static website using GitHub Pages
+- Apply responsive design using Bootstrap
+- Use JavaScript and jQuery for interactive features
+- Integrate third-party public APIs into a web application
+- Use cookies to track user sessions
+- Visualize data using Chart.js
+- Improve web usability and professional presentation for employer-facing portfolios
+
+### Deployed website
+[https://ammay-school.github.io/index.html](https://ammay-school.github.io/index.html)
+### GitHub Repository
+[https://github.com/ammay-school/ammay-school.github.io](https://github.com/ammay-school/ammay-school.github.io)
+
+
+
