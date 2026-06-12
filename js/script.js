@@ -89,18 +89,27 @@ document
     .getElementById("newDogBtn")
     .addEventListener("click", loadDog);
 
-const ctx = document.getElementById('skillChart');
+// Skill Chart 
+window.addEventListener("DOMContentLoaded", function () {
+    const canvas = document.getElementById("skillChart");
 
-if (ctx) {
+    if (!canvas) return;
+
+    const ctx = canvas.getContext("2d");
+
     new Chart(ctx, {
-        type: 'bar',
+        type: "bar",
         data: {
-            labels: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Security'],
+            labels: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Security"],
             datasets: [{
-                label: 'Skill Level',
+                label: "Skill Level",
                 data: [85, 80, 75, 70, 50, 80],
-                backgroundColor: 'rgba(54, 162, 235, 0.6)'
+                backgroundColor: "rgba(54, 162, 235, 0.6)"
             }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false
         }
     });
-}
+});
